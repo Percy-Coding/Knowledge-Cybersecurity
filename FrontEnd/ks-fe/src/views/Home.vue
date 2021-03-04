@@ -21,16 +21,22 @@
         </div>
         <br>
         <br>
-        <div>
+        <div class="text-center">
             <v-btn
-             elevation="2"
-             block
-             :color="active ? 'primary' : undefined"
+             elevation="5"
+             :color="active ? 'primary' : 'warning'"
              :dark="active"
              class="mx-auto"
              rounded="xl"
              @click="onCLickGetIn"
              >{{ active ? 'Ingresando . . .' : 'Ingresar' }}</v-btn>
+        </div>
+        <br>
+        <div>
+            <h3>
+                Te presentamos la guía de taxonomía 
+                <router-link to="/taxonomyChart">Aquí</router-link>
+            </h3>
         </div>
     </div>
 
@@ -46,7 +52,7 @@ export default {
     methods:{
         onCLickGetIn(){
             this.active = true;
-            this.$router.push('/karea');
+            setTimeout(()=>{this.$router.push('/karea');},800);
         }    
     }
 }

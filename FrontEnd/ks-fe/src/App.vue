@@ -2,21 +2,25 @@
 <v-app>
   <v-app-bar app
     color="warning">    
-    <v-app-bar-title>Knowledge Security</v-app-bar-title>
+    <v-app-bar-title>
+      Knowledge CyberSecurity
+    </v-app-bar-title>
     <v-spacer></v-spacer>
     <div class="links">
       <router-link  to="/">Home</router-link>
-      <router-link  to="/About">About</router-link>
+      <router-link  to="/about">About</router-link>
     </div>
     
    
       
   </v-app-bar>
+  <br>
   <v-main>
     <router-view/>
   </v-main>
 </v-app>
 </template>
+
 
 
 <style scoped>

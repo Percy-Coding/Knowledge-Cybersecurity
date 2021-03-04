@@ -5,16 +5,24 @@
     <br />
     <div>
       <v-list>
-        <v-list-item v-for="item in areas" :key="item.title">
+        <v-list-item v-for="item in areas" :key="item.id">
           <v-list-item-content>
               <v-card
                 class="mx-auto"
                 max-width="400"
-                height="100"
                 hover>
-                  <v-list-item-title v-text="item.title" 
-                  class="title-bold"></v-list-item-title>
-                  <br>
+                  <v-toolbar
+                  color="indigo"
+                  dark>
+                    <v-app-bar-nav-icon></v-app-bar-nav-icon>
+                    <v-toolbar-title>{{item.title}} - {{item.id}}</v-toolbar-title>
+                    <v-spacer></v-spacer>
+                    <v-btn icon v-on:click="onClickArrow(item)">
+                      <v-icon v-if="item.arrowed">mdi-arrow-down</v-icon>
+                      <v-icon v-else>mdi-arrow-up</v-icon>
+                    </v-btn>
+
+                  </v-toolbar>
                   <v-card-text>{{item.description}}</v-card-text>
               </v-card>
           </v-list-item-content>
@@ -36,13 +44,30 @@ export default {
   },
   methods:{
       getKAreas(){
-          axios.get('http://www.json-generator.com/api/json/get/cplBWgAdiW?indent=2')
-          .then( (response) => this.areas = response.data);
-      }
+          axios.get('http://www.json-generator.com/api/json/get/bHqdxfYRlu?indent=2')
+          .then( (response) => {
+            let initialAreas = response.data;
+            this.areas = initialAreas.map(function(obj){
+            let o =  Object.assign({},obj);
+            o.arrowed = false;
+            return o;
+          });
+          });
+          
+                    
+      },
+      onClickArrow(item){
+        item.arrowed = !item.arrowed;
+      },
+      /*getKUnitsById(){
+          return;
+      }*/
   },
   mounted(){
       this.getKAreas();
   }
+  
+
 };
 </script>
 

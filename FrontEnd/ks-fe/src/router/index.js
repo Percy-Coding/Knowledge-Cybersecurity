@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import KArea from '../views/K-Area.vue'
+import Taxonomia from '../views/Taxonomia.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/karea',
     name: 'KArea',
     component: KArea
+  },
+  {
+    path: '/taxonomyChart',
+    name: 'Taxonomia',
+    component: Taxonomia
   }
 ]
 
