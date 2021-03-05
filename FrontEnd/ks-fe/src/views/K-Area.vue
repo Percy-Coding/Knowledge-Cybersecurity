@@ -9,21 +9,30 @@
           <v-list-item-content>
               <v-card
                 class="mx-auto"
-                max-width="400"
-                hover>
+                max-width="60vw"
+                >
                   <v-toolbar
                   color="indigo"
                   dark>
-                    <v-app-bar-nav-icon></v-app-bar-nav-icon>
                     <v-toolbar-title>{{item.title}} - {{item.id}}</v-toolbar-title>
                     <v-spacer></v-spacer>
                     <v-btn icon v-on:click="onClickArrow(item)">
-                      <v-icon v-if="item.arrowed">mdi-arrow-down</v-icon>
-                      <v-icon v-else>mdi-arrow-up</v-icon>
+                      <v-icon v-if="item.arrowed">mdi-arrow-up</v-icon>
+                      <v-icon v-else>mdi-arrow-down</v-icon>
                     </v-btn>
-
                   </v-toolbar>
-                  <v-card-text>{{item.description}}</v-card-text>
+                  <v-card-text v-if="item.arrowed">
+                    <p>{{item.description}}</p>
+                    <v-header>Unidades de Conocimiento</v-header>
+                    <v-list-item v-for="ku in item.kunit" :key="ku">
+                      <v-list-item-content>
+                        <router-link 
+                         :to="{name: 'KUnit', params: {idKA: item.id, idKU: ku}}">
+                         {{ku}}
+                        </router-link>
+                      </v-list-item-content>
+                    </v-list-item>                      
+                  </v-card-text>
               </v-card>
           </v-list-item-content>
         </v-list-item>
@@ -67,7 +76,6 @@ export default {
       this.getKAreas();
   }
   
-
 };
 </script>
 
@@ -76,5 +84,4 @@ export default {
     font-weight: 300;
     font-size: 22px;
 }
-
 </style>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import KArea from '../views/K-Area.vue'
 import Taxonomia from '../views/Taxonomia.vue'
+import KUnit from '../views/KUnit.vue'
 
 Vue.use(VueRouter)
 
@@ -23,7 +24,12 @@ const routes = [
   {
     path: '/karea',
     name: 'KArea',
-    component: KArea
+    component: KArea,
+  },
+  {
+    path: '/karea/:idKA/kunit/:idKU',
+    name: 'KUnit',
+    component: KUnit,
   },
   {
     path: '/taxonomyChart',
