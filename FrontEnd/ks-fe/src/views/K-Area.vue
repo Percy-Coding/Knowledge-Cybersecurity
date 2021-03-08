@@ -10,11 +10,15 @@
               <v-card
                 class="mx-auto"
                 max-width="60vw"
+                max-height="70vh"
                 >
                   <v-toolbar
                   color="indigo"
                   dark>
-                    <v-toolbar-title>{{item.title}} - {{item.id}}</v-toolbar-title>
+                    <v-toolbar-title>
+                      <v-icon>mdi-shield-lock</v-icon>
+                      {{item.title}}
+                    </v-toolbar-title>
                     <v-spacer></v-spacer>
                     <v-btn icon v-on:click="onClickArrow(item)">
                       <v-icon v-if="item.arrowed">mdi-arrow-up</v-icon>
@@ -23,13 +27,21 @@
                   </v-toolbar>
                   <v-card-text v-if="item.arrowed">
                     <p>{{item.description}}</p>
-                    <v-header>Unidades de Conocimiento</v-header>
+                    <hr>
+                    <br>
+                    <v-header class="title-bold">Unidades de Conocimiento</v-header>
                     <v-list-item v-for="ku in item.kunit" :key="ku">
                       <v-list-item-content>
-                        <router-link 
-                         :to="{name: 'KUnit', params: {idKA: item.id, idKU: ku}}">
-                         {{ku}}
-                        </router-link>
+                        <v-card 
+                        color="green accent-3"
+                        max-width="30vw"
+                        max-height="5vh"
+                        class="mx-auto"
+                        @click="onClickKunit(item,ku)">
+                        <v-card-text>
+                          {{ku}}
+                        </v-card-text>
+                        </v-card>
                       </v-list-item-content>
                     </v-list-item>                      
                   </v-card-text>
@@ -67,6 +79,11 @@ export default {
       },
       onClickArrow(item){
         item.arrowed = !item.arrowed;
+      },
+      onClickKunit(item,ku){
+         this.$router.push({
+           name: "KUnit",params:{idKA: item.title, idKU: ku, id: item.id}
+           });
       },
       /*getKUnitsById(){
           return;

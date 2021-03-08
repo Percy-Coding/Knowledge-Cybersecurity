@@ -27,7 +27,7 @@ const routes = [
     component: KArea,
   },
   {
-    path: '/karea/:idKA/kunit/:idKU',
+    path: '/:idKA/:idKU',
     name: 'KUnit',
     component: KUnit,
   },
@@ -39,7 +39,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: "history"
 })
 
 export default router
