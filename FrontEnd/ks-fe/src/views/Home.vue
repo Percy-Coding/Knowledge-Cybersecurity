@@ -1,5 +1,6 @@
 <template> 
     <div>
+        <br>
         <h1 class="text-center">Taxonomía de ciberseguridad basada en ACM</h1>
         <div class="text-center grey--text mb2">
             Una taxonomía basada en las áreas de conocimientos

@@ -14,7 +14,6 @@
    
       
   </v-app-bar>
-  <br>
   <v-main>
     <router-view/>
   </v-main>

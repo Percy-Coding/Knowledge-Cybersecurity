@@ -65,7 +65,7 @@ export default {
   },
   methods:{
       getKAreas(){
-          axios.get('http://www.json-generator.com/api/json/get/bHqdxfYRlu?indent=2')
+          axios.get('http://www.json-generator.com/api/json/get/ceYOXYCHZu?indent=2')
           .then( (response) => {
             let initialAreas = response.data;
             this.areas = initialAreas.map(function(obj){
