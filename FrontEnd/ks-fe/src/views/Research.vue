@@ -8,19 +8,25 @@
               @click="$router.go(-1)"
               v-on="on"
               color="blue accent-3">
-                <v-icon>mdi-skip-backward</v-icon>
+                <v-icon>mdi-subdirectory-arrow-left</v-icon>
               </v-btn>
             </template>
             <span>Atrás</span>
           </v-tooltip>
           </div>
           <div class="d-inline-flex">
-          <h2>
-             /{{this.$route.params.idKU}}/{{this.$route.params.researchName}}
-          </h2>
+            <h2>
+              /{{kUName}}/{{this.$route.params.researchName}}
+            </h2>
+          </div>
+          <div class="d-flex justify-end">
+            <v-switch
+              v-model="filterMode"
+              :label="filterMode? 'By Knowledge Objectives': 'By keywords'"></v-switch>
           </div>
         </div>
         <v-text-field
+          v-if="!filterMode"
           v-model="newKeyword"
           label="Keyword"
           append-icon="mdi-plus-circle-outline"
@@ -30,16 +36,33 @@
           >
         </v-text-field>
         <br>
-        <v-card elevation="5" min-height="100px">
+        <div v-if="filterMode">
+          <h3>Knowledge Objectives</h3>
+          <br>
+        </div>
+        <v-card elevation="5" min-height="90px">
+          <v-card-text v-if="filterItems.length === 0">Aún no hay keywords añadidos</v-card-text>
           <v-container fluid>
-            <v-row>
+            <v-row v-if="!filterMode">
               <v-col v-for="item in filterItems" :key="item">
-                <v-card class='green accent-3'>
+                <v-card class='green accent-2'>
                   <v-card-text  class="text-center" >
                     {{item}}
                     <v-btn icon>
                        <v-icon @click="removeFilterItems(item)">mdi-minus-circle-outline</v-icon>
                     </v-btn>
+                  </v-card-text>
+                </v-card>
+              </v-col>
+            </v-row>
+            <v-row v-else>
+              <v-col v-for="item in koItems" :key="item">
+                <v-card 
+                :class="item.clicked? 'green accent-2':'grey accent-1'"
+                @click="checkKO(item)"
+                height="80px">
+                  <v-card-text class="text-center" >
+                    {{item.name}}
                   </v-card-text>
                 </v-card>
               </v-col>
@@ -56,18 +79,30 @@
           <v-expand-transition>
             <v-card
             v-show="expand"
-            height="100"
-            width="90vw"
-            class="mx-auto blue accent-3">
+            width="50vw"
+            class="mx-auto"
+            >
+              <v-list>
+                <v-list-item v-for="adItem in advancedItems" :key="adItem">
+                  <v-list-item-icon>
+                    <v-icon>{{adItem.icon}}</v-icon>
+                  </v-list-item-icon>
+                  <v-list-item-content>
+                    <v-text-field :label="adItem.label" v-model="adItem.value"></v-text-field>
+                  </v-list-item-content>
+                </v-list-item>
+              </v-list>
             </v-card>
           </v-expand-transition>
         </div>
         <br>
         <div class="mx-auto text-center">
-          <v-btn color="black accent-2" dark @click="filterActive = true">
+          <v-btn color="black accent-2" dark @click="onClickFilter">
             Filtrar
           </v-btn>
         </div>
+        <br>
+        <v-divider></v-divider>
         <br>
         <v-card v-if="filterActive">
           <v-card-title>
@@ -75,137 +110,132 @@
           </v-card-title>
           <v-data-table
             :headers="headers"
-            :items="desserts"
+            :items="papers"
             :search="search"
-          ></v-data-table>
+            @click:row="goToLink"
+          >
+          </v-data-table>
         </v-card>
-        <v-card v-else class="mx-auto" max-width="315px" dark color="red">
-          <v-card-title> Aún no se han filtrados papers</v-card-title>
-        </v-card>
+        <v-header v-else class="d-flex justify-center">
+          Aún no se han filtrado papers
+        </v-header>
     </v-container>
 </template>
 
 <script>
+  import axios from 'axios'
   export default {
     data () {
       return {
+        idKU: this.$route.params.idKU,
+        sectorID: this.$route.params.sectorId,
+        kUName: localStorage.getItem('KUName'),
         expand: false,
+        filterMode: false,
         newKeyword: '',
         filterActive: false,
         filterItems: [],
+        koItems: [
+        ],
+        advancedItems: [
+          {label: 'Título', icon: 'mdi-subtitles-outline', value: ''},
+          {label: 'Año', icon: 'mdi-calendar-range',value: ''},
+          {label: 'DOI', icon: 'mdi-counter',value: ''},
+          {label: 'Autor', icon: 'mdi-account',value: ''},
+        ],
         search: '',
+        checkedKO: {id : -1, name:''},
         headers: [
           {
             text: 'Paper Name',
             align: 'start',
             filterable: true,
-            value: 'name',
+            value: 'title',
           },
-          { text: 'someText1', value: 'calories' },
-          { text: 'someText2', value: 'fat' },
-          { text: 'someText3', value: 'carbs' },
-          { text: 'someText4', value: 'protein' },
-          { text: 'someText5', value: 'iron' },
+          { text: 'Año', value: 'year' },
+          { text: 'DOI', value: 'doi' },
+          { text: 'Autor', value: 'authors' },
+          { text: 'Source', value: 'source' },
         ],
-        desserts: [
-          {
-            name: 'SomePaper1',
-            calories: 159,
-            fat: 6.0,
-            carbs: 24,
-            protein: 4.0,
-            iron: '1%',
-          },
-          {
-            name: 'SomePaper2',
-            calories: 237,
-            fat: 9.0,
-            carbs: 37,
-            protein: 4.3,
-            iron: '1%',
-          },
-          {
-            name: 'SomePaper3',
-            calories: 262,
-            fat: 16.0,
-            carbs: 23,
-            protein: 6.0,
-            iron: '7%',
-          },
-          {
-            name: 'SomePaper4',
-            calories: 305,
-            fat: 3.7,
-            carbs: 67,
-            protein: 4.3,
-            iron: '8%',
-          },
-          {
-            name: 'SomePaper5',
-            calories: 356,
-            fat: 16.0,
-            carbs: 49,
-            protein: 3.9,
-            iron: '16%',
-          },
-          {
-            name: 'SomePaper6',
-            calories: 375,
-            fat: 0.0,
-            carbs: 94,
-            protein: 0.0,
-            iron: '0%',
-          },
-          {
-            name: 'SomePaper7',
-            calories: 392,
-            fat: 0.2,
-            carbs: 98,
-            protein: 0,
-            iron: '2%',
-          },
-          {
-            name: 'SomePaper8',
-            calories: 408,
-            fat: 3.2,
-            carbs: 87,
-            protein: 6.5,
-            iron: '45%',
-          },
-          {
-            name: 'SomePaper9',
-            calories: 452,
-            fat: 25.0,
-            carbs: 51,
-            protein: 4.9,
-            iron: '22%',
-          },
-          {
-            name: 'SomePaper10',
-            calories: 518,
-            fat: 26.0,
-            carbs: 65,
-            protein: 7,
-            iron: '6%',
-          },
+        papers: [
+          
         ],
       }
     },
     methods:{
       addFilterItems(kw){
-        this.filterItems.push(kw);
-        this.newKeyword = '';       
+        if(kw !== ''){
+          kw = kw.trim();
+          this.filterItems.push(kw);
+          this.newKeyword = '';  
+        }
+        else{
+          alert('Por favor ingrese algún keyword');
+        }
+             
       },
       removeFilterItems(kw){
         let index = this.filterItems.indexOf(kw);
         this.filterItems.splice(index,1);        
+      },
+      onClickFilter(){
+        if(this.filterMode && this.checkedKO.id == -1){
+          alert('Escoja al menos 1 Knowledge Objective')
+        }
+        else{
+          const year = this.advancedItems[1].value;
+          const title = this.advancedItems[0].value;
+          const doi = this.advancedItems[2].value;
+          const autor = this.advancedItems[3].value;
+          let kws = this.filterItems.join(';');
+          let idKO = this.checkedKO.id;
+          if (this.filterMode){kws ='';}
+          else{
+            idKO = '';
+          }
+          axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/papers?keywords=${kws}&startYear=${year}&endYear=${year}&title=${title}&doi=${doi}&author=${autor}&koId=${idKO}`)
+          .then( (response) => {
+            this.papers = response.data; 
+            this.filterActive = true;
+        });
+        }
+        
+      },
+      getKOs(){
+        axios.get('http://26.38.36.67:4899/knowledge-objectives')
+        .then( (response) =>{
+          let newkoItems = response.data;
+          this.koItems = newkoItems.map(function(obj){
+          let o =  Object.assign({},obj);
+          o.clicked = false;
+          return o;
+          });          
+        });
+      },
+      checkKO(item){
+        if(this.koItems.every(ko => !ko.clicked)){
+          item.clicked = true;
+          this.checkedKO = item;
+        }
+        else{
+          item.clicked = false;
+          if(item.name == this.checkedKO.name){
+            this.checkedKO = {id: -1, name: ''};
+          }
+        }
+      },
+      goToLink(item){
+        window.open(item.link,'_blank');
       }
+    },
+    mounted(){
+      this.getKOs();
     }
   }
 </script>
 
 <style scoped>
     .v-text-field{
-      width: 280px;
+      width: 250px;
     }
 </style>

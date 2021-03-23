@@ -1,7 +1,8 @@
 <template>
 <v-app>
   <v-app-bar app
-    color="warning">    
+    color="primary"
+    dark>    
     <v-app-bar-title>
       Knowledge CyberSecurity
     </v-app-bar-title>
@@ -25,6 +26,8 @@
 <style scoped>
 .links > * {
   margin: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 </style>
 

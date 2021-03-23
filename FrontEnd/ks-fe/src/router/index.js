@@ -5,6 +5,7 @@ import KArea from '../views/K-Area.vue'
 import Taxonomia from '../views/Taxonomia.vue'
 import KUnit from '../views/KUnit.vue'
 import Research from '../views/Research.vue'
+import WorkRoles from '../views/WorkRole.vue'
 
 Vue.use(VueRouter)
 
@@ -28,14 +29,19 @@ const routes = [
     component: KArea,
   },
   {
-    path: '/:idKA/:idKU',
+    path: '/:idKA/:idKU-:KUName',
     name: 'KUnit',
     component: KUnit,
   },
   {
-    path: '/:idKA/:idKU/:researchName',
+    path: '/:idKA/:idKU/:researchName-:sectorId',
     name: 'Research',
     component: Research,
+  },
+  {
+    path: '/:wrId-:wrName',
+    name: 'WorkRoles',
+    component: WorkRoles,
   },
   {
     path: '/taxonomyChart',

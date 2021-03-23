@@ -7,7 +7,7 @@
         <div 
             class="text-center">
             <v-btn
-                color="warning"
+                color="secondary"
                 elevation="5"
                 x-large
                 @click="onClickGoBack">
