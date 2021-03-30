@@ -1,0 +1,96 @@
+﻿ID_KA;ID_KU;Knowledge_Unit;Definition_KU;
+100;1000;Cryptography;It refers to a technique that encrypts messages in an unreadable way.;
+100;1001;Digital Forensics;"It refers to the procedure of identifying, collecting, preserving,
+analyze and present digital evidence in a manner legally accepted by the court. For this, the collection of digital evidence from digital devices must be carried out efficiently, effectively and within a specified period of time.";
+100;1002;Data Integrity and Authentication;Authentication is considered as a subdomain of security, since in the same way as security, authentication depends largely on important aspects of confidentiality, integrity and availability, which are considered as mandatory requirements for the design of systems insurance. ;
+100;1003;Access Control;Access control refers to the process of managing the request to resources and data maintained by a system in order to determine whether the request should be accepted or denied. According to the complexity of the protection requirements that a system has, access control will be far from being a trivial process. ;
+100;1004;Secure Communication Protocols;Communication protocol that provides confidentiality, authentication and content integrity. ;
+100;1005;Cryptoanalisis;It means trying to break any security (or encryption) system using unauthorized ways to access the information on that system. Thus, cryptanalysis works against cryptography. The cryptanalyst tries to find any weaknesses in the cryptographic system to obtain the source of information (plain text) or the key used in the encryption algorithm. ;
+100;1006;Data Privacy;it is the ability of information technology to determine what system data can be shared with third parties. ;
+100;1007;Information Storage Security;Application of physical, technical and administrative controls to protect storage systems and infrastructures, as well as the data stored in them. ;
+101;1008;Fundamental Principles;Principles from which other truths can be derived. ;
+101;1009;Design;Description or verbal sketch of something.;
+101;1010;Implementation;Putting into operation or applying methods, measures, etc., to carry out something. ;
+101;1011;Analysis and Testing;It refers to the verification and validation process in order to verify the quality of the implementation and detect non-compliances with respect to user requirements.;
+101;1012;Deployment and Maintenance;"It refers to the execution of the processes carried out to complete the work defined in order to satisfy the requirements of the project.
+Monitoring consists of collecting, measuring and evaluating the measures and trends that will allow improvements to the process. Likewise, it allows the project management to know the status of the project in order to identify which areas will need special attention. ";
+101;1013;Documentation;It refers to the recording of a collection of data, which generally has permanence and can be read and understood. A document is a quantity of information on one or more related topics prepared for a specific purpose.;
+101;1014;Ethics;"The ethical approach refers to the incorporation of concepts of equity, transparency,
+participation, responsibility and legitimacy in the collection and processing of data.";
+102;1015;Component design;Construction process of a digital product.;
+102;1016;Component Procurement;Act of acquisition of parts for commercial purposes.;
+102;1017;Component Testing;Refers to a documented set of instructions on how to carry out a particular set of tests on a given software component and the expected results of the test.;
+102;1018;Component Reverse Engineering;Component construction process to analyze the operation in detail. Generally for the creation of a new project. ;
+103;1019;Distributed Systems Architecture;Design that allows users to access information, applications or services through a single user environment. ;
+103;1020;Network Architecture;How network devices and services are structured to meet the connectivity needs of client devices.;
+103;1021;Network Implementations;Developed plan of activities for the expansion or modification of a network.;
+103;1022;Network Services;Capabilities that facilitate the operation of the network. (DNS, DHCP, VoIP);
+103;1023;Network Defense;Actions taken by using computer networks to protect, monitor, analyze, detect and respond to unauthorized activities within computer information systems and networks.;
+104;1024;System Thinking;Skill or skill to perform problem solving in a complex system.;
+104;1025;System Management;Management of information technology systems in an enterprise data center.;
+104;1026;System Access & Control;Electronic security system that controls who accesses it, wherever and when.;
+104;1027;System Testing; A test level that validates the entire, fully integrated software product.;
+104;1028;Common System Architectures;Response to the conceptual and practical difficulties of describing and designing complex systems.;
+105;1029;Identity Management;Organizational process to identify, authenticate, and authorize people or groups of people to access applications, systems, or computer networks.;
+105;1030;Social Engineering;Handling people to break normal security procedures using best practices in order to gain access to systems.;
+105;1031;"Personal Compliance with cybersecurity 
+rules / policies / ethical norms";It sets behavioral standards for activities such as encrypting email attachments and restrictions on the use of social media.;
+105;1032;Awareness and understanding;Perceive the fact of something in cybersecurity.;
+105;1033;Personal Data Privacy and Security;Access and protection of unauthorized user data through different forms of encryption, key management, and authentication.;
+105;1034;Usable Security and privacy;Ensure that safety products and processes are usable by those who need them.;
+106;1035;Risk Management;Process of identifying, evaluating and controlling threats to an organization's capital and income.;
+106;1036;Security Governance & Policy;A system by which an organization directs and controls the security of information technology.;
+106;1037;Analytical Tools;Analyze data and extract actionable and commercially relevant information that can be used to increase results or performance.;
+106;1038;"Systems 
+Administration";Support in the multi-user computing environment and ensures continuous and optimal performance of IT services and support systems.;
+106;1039;"Cybersecurity 
+Planning ";An essential tool that organizations use to protect their customers, employees, and corporate information.;
+106;1040;Business Continuity, Disaster Recovery, and Incident Management;Process of resuming normal operations after a disaster by regaining access to data, hardware, software, network equipment, power, and connectivity.;
+106;1041;Security Program Management;Set of activities, projects and initiatives that must be implemented in a coordinated manner, in order to meet the commercial objectives and carry out the company's information security strategy.;
+106;1042;Personnel Security;It deals with the roles and responsibilities of the safety program implemented during all phases of staff employment, including hiring and firing staff.;
+107;1043;Cybercrime;Criminal activity that aims for a computer, computer network, or network device.;
+107;1044;"Cyber Law
+";Legislation that focuses on the acceptable use of technology, including hardware and software for computers, the Internet, and networks.;
+107;1045;"Cyber Ethics
+";Refers to the responsible behavior code on the Internet.;
+107;1046;"Cyber Policy
+";It regulates all aspects of digital data exchange, including the Internet, data privacy and network usage, as well as cyber defense.;
+107;1047;Privacy;It refers to the right to determine when, how and to what extent personal data may be shared with third parties.;
+108;1048;Internet Of Things;It refers to the integration of a large number of uniquely identified physical objects, which are ubiquitously interconnected and accessible via the Internet. Its main objective is to transform any real-world object into a computer device so that it has detection, communication and control capabilities.;
+108;1049;Artificial Intelligence;It is defined as the power of the intellectual human mind that designs an intelligent work system that is demonstrated in terms of computational power designed by human intelligence. It is designed in such a way that it begins to simulate brain thinking, its thinking pattern, the analysis approach and how to calculate the problem.;
+108;1050;Blockchain;"It refers to a technology that is based on a series of distributed records
+by means of blockchain. In addition, this potential technology can disruption in multiple industries.";
+108;1051;Machine learning;It refers to an algorithm method that automatically analyzes and obtains laws from data in order to predict the unknown. It is also used to identify relationships between dependent and independent variables, which is particularly close to inferential statistics.;
+108;1052;Cloud computing;;
+108;1053;Smart-grid;"They are made up of the use of sensors, communication systems
+and the ability to compute and control data in order to take
+more timely decisions at all times and thus get a supply
+more efficient, economical and reliable. It refers intelligently when faced with
+fluctuations that may occur, the most important decisions are made
+efficient in real time.";
+108;1054;Data science;It is the study of the generalizable extraction of knowledge from data through the combined use of automatic learning techniques, articial intelligence, mathematics, database and optimization, along with a deep understanding of the business context.;
+108;1055;Data mining;It refers to the process of analyzing data from different perspectives in order to summarize it into useful information segments. It also allows users to analyze data from different dimensions or angles, categorizing it and summarizing the identified relationships.;
+108;1056;Big data;Big Data refers to a high volume, speed and/or variety of information assets that require new and innovative forms of processing in order to improve decision-making, business perception or process optimization.;
+108;1057;Convergence of IT and OT security;"Integration of information technology (IT) systems with operational technology (OT) systems. IT systems are used for data-centric computing; OT systems monitor events, processes and devices, and make adjustments to business and industrial operations.";
+108;1058;5g Cybersecurity;The 5G network is software-centric and creates a distributed approach to digital routing. This distributed set of digital routers spreads the cybersecurity task to more nodes. In doing so, it loses the benefits of controlling and inspecting endpoints in the application of security protocols.;
+108;1059;Cyber-Biosecurity;It has the function of understanding the new risks that arise on the border between cyberspace and biology in order to develop policies to manage them.;
+108;1060;Security/Cybersecurity in ubiquitous systems;"Ubiquitous systems can refer to any ubiquitous system such as: IoT, cyber physical systems,
+world-class computing, mobile computing, cloud computing, etc. Cybersecurity solutions for these systems require compliance with key limitations such as scalability, maintainability, and performance.";
+108;1061;Intrusion detection and resiliency in ubiquitous systems;Process to identify abnormal behavior or pattern.;
+108;1062;Data privacy in ubiquitous systems;Digitizing our lives to allow computer systems to process them automatically.;
+108;1063;Secure data analytics for ubiquitous systems;;
+108;1064;Adaptive intelligence in security measures for ubiquitous systems;;
+108;1065;Trust computing for ubiquitous systems;;
+108;1066;Hardware trusted platforms, secure elements, trusted execution environment for ubiquitous systems;;
+108;1067;Reputation-based recommendation systems for ubiquitous systems;;
+108;1068;Smart City Security;;
+108;1069;Smart Grid security;;
+108;1070; Security in Fog/edge Computing;;
+108;1071;Data Center Network Control, Security and Optimization;;
+108;1072;Virtual firewalls;;
+108;1073;Enterprise Wireless Security;;
+108;1074;Host Network Intrusion Prevention Systems;;
+108;1075;Cognitive Security;;
+108;1076;Machine learning and cybersecurity;;
+108;1077;Security Analytics;;
+108;1078;Cyber Physical System (CPS) security;;

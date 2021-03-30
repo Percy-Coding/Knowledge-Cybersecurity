@@ -1,0 +1,767 @@
+ID;ID_KU;Name_Certificated;Link_Certificate
+1;1000;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+2;1000;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+3;1000;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+4;1000;CompTIA A+;https://www.comptia.org/certifications/a
+5;1000;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+6;1000;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+7;1000;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+8;1000;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+9;1000;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+10;1000;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+11;1000;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+12;1000;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+13;1000;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+14;1000;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+15;1000;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+16;1000;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+17;1000;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+18;1000;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+19;1000;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+20;1001;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+21;1001;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+22;1001;CompTIA A+;https://www.comptia.org/certifications/a
+23;1001;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+24;1001;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+25;1001;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+26;1001;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+27;1001;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+28;1001;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+29;1001;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+30;1001;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+31;1001;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+32;1001;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+33;1001;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+34;1001;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+35;1001;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+36;1002;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+37;1002;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+38;1002;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+39;1002;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+40;1002;CompTIA A+;https://www.comptia.org/certifications/a
+41;1002;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+42;1002;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+43;1002;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+44;1002;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+45;1002;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+46;1002;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+47;1002;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+48;1002;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+49;1002;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+50;1002;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+51;1002;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+52;1002;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+53;1003;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+54;1003;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+55;1003;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+56;1003;CompTIA A+;https://www.comptia.org/certifications/a
+57;1003;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+58;1003;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+59;1003;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+60;1003;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+61;1003;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+62;1003;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+63;1003;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+64;1003;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+65;1003;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+66;1003;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+67;1003;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+68;1003;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+69;1003;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+70;1003;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+71;1003;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+72;1003;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+73;1004;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+74;1004;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+75;1004;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+76;1004;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+77;1004;CompTIA A+;https://www.comptia.org/certifications/a
+78;1004;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+79;1004;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+80;1004;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+81;1004;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+82;1004;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+83;1004;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+84;1004;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+85;1004;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+86;1004;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+87;1004;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+88;1004;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+89;1004;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+90;1004;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+91;1004;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+92;1004;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+93;1004;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+94;1005;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+95;1005;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+96;1005;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+97;1005;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+98;1006;CompTIA A+;https://www.comptia.org/certifications/a
+99;1006;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+100;1006;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+101;1006;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+102;1006;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+103;1006;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+104;1007;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+105;1007;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+106;1007;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+107;1007;CompTIA A+;https://www.comptia.org/certifications/a
+108;1007;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+109;1007;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+110;1007;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+111;1007;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+112;1007;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+113;1007;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+114;1007;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+115;1007;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+116;1007;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+117;1007;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+118;1007;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+119;1007;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+120;1007;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+121;1007;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+122;1007;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+123;1007;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+124;1007;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+125;1007;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+126;1007;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+127;1007;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+128;1007;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+129;1008;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+130;1008;CompTIA A+;https://www.comptia.org/certifications/a
+131;1008;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+132;1008;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+133;1008;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+134;1008;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+135;1008;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+136;1008;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+137;1008;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+138;1008;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+139;1009;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+140;1009;CompTIA A+;https://www.comptia.org/certifications/a
+141;1009;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+142;1009;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+143;1009;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+144;1009;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+145;1009;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+146;1009;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+147;1009;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+148;1010;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+149;1010;CompTIA A+;https://www.comptia.org/certifications/a
+150;1010;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+151;1010;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+152;1010;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+153;1010;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+154;1010;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+155;1010;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+156;1010;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+157;1010;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+158;1010;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+159;1010;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+160;1010;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+161;1011;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+162;1011;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+163;1011;CompTIA A+;https://www.comptia.org/certifications/a
+164;1011;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+165;1011;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+166;1011;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+167;1011;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+168;1011;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+169;1011;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+170;1011;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+171;1011;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+172;1011;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+173;1011;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+174;1012;CompTIA A+;https://www.comptia.org/certifications/a
+175;1012;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+176;1012;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+177;1012;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+178;1012;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+179;1012;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+180;1012;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+181;1012;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+182;1012;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+183;1012;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+184;1012;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+185;1013;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+186;1013;CompTIA A+;https://www.comptia.org/certifications/a
+187;1013;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+188;1013;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+189;1013;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+190;1013;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+191;1013;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+192;1013;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+193;1013;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+194;1014;CompTIA A+;https://www.comptia.org/certifications/a
+195;1014;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+196;1014;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+197;1015;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+198;1015;CompTIA A+;https://www.comptia.org/certifications/a
+199;1015;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+200;1015;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+201;1015;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+202;1015;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+203;1015;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+204;1015;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+205;1015;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+206;1016;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+207;1016;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+208;1016;CompTIA A+;https://www.comptia.org/certifications/a
+209;1016;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+210;1016;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+211;1016;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+212;1016;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+213;1016;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+214;1016;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+215;1016;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+216;1016;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+217;1016;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+218;1016;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+219;1016;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+220;1016;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+221;1017;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+222;1017;CompTIA A+;https://www.comptia.org/certifications/a
+223;1017;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+224;1017;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+225;1017;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+226;1017;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+227;1017;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+228;1017;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+229;1017;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+230;1018;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+231;1018;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+232;1018;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+233;1018;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+234;1019;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+235;1019;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+236;1019;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+237;1019;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+238;1019;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+239;1019;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+240;1019;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+241;1019;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+242;1019;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+243;1019;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+244;1019;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+245;1019;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+246;1019;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+247;1019;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+248;1019;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+249;1019;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+250;1019;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+251;1019;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+252;1019;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+253;1019;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+254;1019;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+255;1019;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+256;1019;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+257;1019;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+258;1020;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+259;1020;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+260;1020;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+261;1020;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+262;1020;CompTIA A+;https://www.comptia.org/certifications/a
+263;1020;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+264;1020;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+265;1020;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+266;1020;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+267;1020;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+268;1020;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+269;1020;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+270;1020;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+271;1020;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+272;1020;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+273;1020;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+274;1020;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+275;1020;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+276;1020;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+277;1020;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+278;1020;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+279;1020;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+280;1020;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+281;1020;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+282;1021;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+283;1021;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+284;1021;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+285;1021;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+286;1021;CompTIA A+;https://www.comptia.org/certifications/a
+287;1021;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+288;1021;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+289;1021;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+290;1021;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+291;1021;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+292;1021;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+293;1021;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+294;1021;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+295;1021;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+296;1021;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+297;1021;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+298;1021;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+299;1021;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+300;1021;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+301;1021;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+302;1021;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+303;1021;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+304;1021;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+305;1021;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+306;1022;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+307;1022;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+308;1022;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+309;1022;CompTIA A+;https://www.comptia.org/certifications/a
+310;1022;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+311;1022;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+312;1022;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+313;1022;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+314;1022;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+315;1022;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+316;1022;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+317;1022;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+318;1022;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+319;1022;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+320;1022;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+321;1022;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+322;1022;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+323;1022;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+324;1022;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+325;1023;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+326;1023;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+327;1023;CompTIA A+;https://www.comptia.org/certifications/a
+328;1023;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+329;1023;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+330;1023;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+331;1023;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+332;1023;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+333;1023;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+334;1023;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+335;1023;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+336;1023;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+337;1023;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+338;1023;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+339;1023;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+340;1023;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+341;1023;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+342;1023;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+343;1023;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+344;1023;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+345;1023;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+346;1023;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+347;1023;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+348;1023;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+349;1024;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+350;1024;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+351;1024;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+352;1024;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+353;1024;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+354;1024;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+355;1024;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+356;1024;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+357;1024;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+358;1024;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+359;1024;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+360;1024;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+361;1024;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+362;1024;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+363;1025;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+364;1025;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+365;1025;CompTIA A+;https://www.comptia.org/certifications/a
+366;1025;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+367;1025;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+368;1025;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+369;1025;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+370;1025;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+371;1025;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+372;1025;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+373;1025;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+374;1025;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+375;1025;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+376;1025;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+377;1025;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+378;1025;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+379;1025;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+380;1025;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+381;1025;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+382;1025;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+383;1026;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+384;1026;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+385;1026;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+386;1026;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+387;1026;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+388;1026;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+389;1026;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+390;1026;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+391;1026;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+392;1026;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+393;1026;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+394;1026;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+395;1026;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+396;1026;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+397;1026;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+398;1026;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+399;1026;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+400;1027;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+401;1027;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+402;1027;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+403;1027;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+404;1027;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+405;1027;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+406;1027;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+407;1027;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+408;1027;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+409;1027;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+410;1027;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+411;1027;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+412;1027;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+413;1027;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+414;1028;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+415;1028;CompTIA A+;https://www.comptia.org/certifications/a
+416;1028;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+417;1028;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+418;1028;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+419;1028;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+420;1028;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+421;1028;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+422;1028;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+423;1028;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+424;1028;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+425;1028;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+426;1028;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+427;1028;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+428;1028;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+429;1028;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+430;1028;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+431;1028;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+432;1028;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+433;1028;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+434;1029;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+435;1029;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+436;1029;CompTIA A+;https://www.comptia.org/certifications/a
+437;1029;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+438;1029;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+439;1029;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+440;1029;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+441;1029;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+442;1029;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+443;1029;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+444;1029;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+445;1029;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+446;1029;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+447;1029;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+448;1029;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+449;1030;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+450;1030;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+451;1030;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+452;1030;CompTIA A+;https://www.comptia.org/certifications/a
+453;1030;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+454;1030;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+455;1030;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+456;1030;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+457;1030;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+458;1030;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+459;1030;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+460;1031;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+461;1031;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+462;1031;CompTIA A+;https://www.comptia.org/certifications/a
+463;1031;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+464;1031;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+465;1031;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+466;1031;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+467;1031;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+468;1031;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+469;1031;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+470;1031;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+471;1031;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+472;1031;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+473;1032;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+474;1032;CompTIA A+;https://www.comptia.org/certifications/a
+475;1032;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+476;1032;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+477;1032;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+478;1032;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+479;1032;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+480;1032;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+481;1032;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+482;1032;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+483;1032;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+484;1032;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+485;1032;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+486;1032;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+487;1032;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+488;1032;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+489;1033;CompTIA A+;https://www.comptia.org/certifications/a
+490;1033;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+491;1033;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+492;1033;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+493;1033;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+494;1033;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+495;1033;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+496;1033;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+497;1033;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+498;1033;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+499;1033;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+500;1034;CompTIA A+;https://www.comptia.org/certifications/a
+501;1034;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+502;1034;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+503;1034;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+504;1034;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+505;1034;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+506;1034;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+507;1034;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+508;1034;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+509;1034;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+510;1034;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+511;1034;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+512;1034;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+513;1034;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+514;1035;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+515;1035;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+516;1035;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+517;1035;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+518;1035;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+519;1035;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+520;1035;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+521;1035;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+522;1035;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+523;1035;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+524;1035;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+525;1035;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+526;1035;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+527;1035;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+528;1035;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+529;1035;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+530;1035;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+531;1035;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+532;1035;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+533;1035;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+534;1035;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+535;1035;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+536;1035;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+537;1036;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+538;1036;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+539;1036;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+540;1036;CompTIA A+;https://www.comptia.org/certifications/a
+541;1036;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+542;1036;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+543;1036;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+544;1036;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+545;1036;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+546;1036;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+547;1036;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+548;1036;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+549;1036;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+550;1036;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+551;1036;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+552;1036;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+553;1036;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+554;1036;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+555;1036;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+556;1036;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+557;1036;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+558;1036;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+559;1036;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+560;1037;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+561;1037;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+562;1037;CompTIA A+;https://www.comptia.org/certifications/a
+563;1037;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+564;1037;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+565;1037;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+566;1037;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+567;1037;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+568;1037;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+569;1037;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+570;1037;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+571;1037;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+572;1037;GIAC Certified Intrusion Analyst (GCIA);https://www.giac.org/certification/certified-intrusion-analyst-gcia
+573;1037;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+574;1037;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+575;1037;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+576;1037;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+577;1037;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+578;1037;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+579;1037;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+580;1038;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+581;1038;CompTIA A+;https://www.comptia.org/certifications/a
+582;1038;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+583;1038;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+584;1038;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+585;1038;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+586;1038;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+587;1038;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+588;1038;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+589;1038;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+590;1038;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+591;1038;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+592;1038;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+593;1038;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+594;1038;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+595;1038;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+596;1038;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+597;1038;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+598;1038;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+599;1039;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+600;1039;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+601;1039;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+602;1039;CompTIA A+;https://www.comptia.org/certifications/a
+603;1039;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+604;1039;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+605;1039;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+606;1039;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+607;1039;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+608;1039;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+609;1039;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+610;1039;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+611;1039;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+612;1039;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+613;1040;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+614;1040;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+615;1040;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+616;1040;CompTIA A+;https://www.comptia.org/certifications/a
+617;1040;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+618;1040;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+619;1040;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+620;1040;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+621;1040;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+622;1040;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+623;1040;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+624;1040;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+625;1040;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+626;1040;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+627;1040;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+628;1040;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+629;1040;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+630;1040;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+631;1040;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+632;1040;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+633;1040;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+634;1040;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+635;1040;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+636;1040;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+637;1040;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+638;1041;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+639;1041;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+640;1041;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+641;1041;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+642;1041;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+643;1041;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+644;1041;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+645;1041;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+646;1041;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+647;1041;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+648;1041;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+649;1041;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+650;1041;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+651;1041;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+652;1041;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+653;1041;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+654;1041;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+655;1041;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+656;1041;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+657;1041;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+658;1041;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+659;1041;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+660;1041;GIAC Systems and Network Auditor (GSNA) ;https://www.giac.org/certification/systems-network-auditor-gsna
+661;1042;Cybersecurity Specialty Certification (SCYBER);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/specialist/security/cybersecurity.html
+662;1042;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+663;1042;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+664;1042;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+665;1042;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+666;1042;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+667;1042;(ISC)2 Information Systems Security Engineering Professional (ISSEP);https://www.isc2.org/Certifications/CISSP-Concentrations
+668;1042;ISACA Certified Information Security Manager (CISM);https://www.isaca.org/credentialing/cism
+669;1042;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+670;1042;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+671;1042;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+672;1042;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+673;1042;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+674;1043;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+675;1043;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+676;1043;GIAC Certified Forensic Analyst (GCFA) ;https://www.giac.org/certification/certified-forensic-analyst-gcfa
+677;1043;GIAC Certified Incident Handler (GCIH) ;https://www.giac.org/certification/certified-incident-handler-gcih
+678;1043;"GIAC Global Industrial Cyber Security Professional
+(GICSP)";https://www.giac.org/certification/global-industrial-cyber-security-professional-gicsp
+679;1044;-;-
+680;1045;-;-
+681;1046;-;-
+682;1047;CompTIA A+;https://www.comptia.org/certifications/a
+683;1047;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+684;1047;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+685;1047;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+686;1047;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+687;1047;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+688;1047;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+689;1047;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+690;1047;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+691;1047;(ISC)2 Certification Authorization Professional (CAP);https://www.isc2.org/Certifications/CAP
+692;1047;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+693;1047;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+694;1047;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+695;1047;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+696;1047;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
+697;1048;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+698;1048;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+699;1048;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+700;1048;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+701;1048;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+702;1048;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+703;1048;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+704;1048;ISACA Certified Information Systems Auditor (CISA);https://www.isaca.org/credentialing/cisa
+705;1049;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+706;1049;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+707;1049;EC-Council Certified Chief Information Security Officer (CCISO);https://ciso.eccouncil.org/
+708;1049;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+709;1049;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+710;1050;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+711;1050;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+712;1050;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+713;1051;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+714;1051;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+715;1051;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+716;1051;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+717;1051;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+718;1052;CyberSec First Responder (CFR);https://certnexus.com/certification/cybersec-first-responder/
+719;1052;Cisco Certified Network Associate-Security (CCNA Security);https://learningnetwork.cisco.com/s/ccna
+720;1052;Cisco Certified Network Professional-Security (CCNP Security);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security.html
+721;1052;Cisco Certified Network Associate-Cyber Ops (CCNACyber Ops);https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/cyberops-associate.html
+722;1052;CompTIA A+;https://www.comptia.org/certifications/a
+723;1052;CompTIA Security+;https://certification.comptia.org/es/certificaciones/security
+724;1052;CompTIA Advanced Security Practitioner (CASP+) ;https://www.comptia.org/es/certificaciones/comptia-advanced-security-practitioner
+725;1052;CompTIA Network+;https://www.comptia.org/es/certificaciones/network
+726;1052;CompTIA Cybersecurity Analyst (CySA+);https://www.comptia.org/es/certificaciones/cybersecurity-analyst
+727;1052;EC-Council Certified Ethical Hacker (CEH) ;https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-es/
+728;1052;EC-Council Computer Hacking Forensics Investigator (CHFI);https://www.eccouncil.org/programs/computer-hacking-forensic-investigator-chfi/
+729;1052;(ISC)2 Certified Information Systems Security Professional (CISSP);https://www.isc2.org/Certifications/CISSP
+730;1052;(ISC)2 Certified Secure Software Lifecycle Professional (CSSLP);https://www.isc2.org/Certifications/CSSLP
+731;1052;(ISC)2 Information Systems Security Architecture Professional (ISSAP);https://www.isc2.org/Certifications/CISSP-Concentrations#
+732;1052;(ISC)2 Information Systems Security Management Professional (ISSMP);https://www.isc2.org/Certifications/CISSP-Concentrations
+733;1052;(ISC)2 System Security Certified Practitioner (SSCP);https://www.isc2.org/Certifications/SSCP#:~:text=Become%20an%20SSCP%20%E2%80%93%20Systems%20Security%20Certified%20Practitioner&text=SSCP%20certification%20demonstrates%20you%20have,experts%20at%20(ISC)%C2%B2.
+734;1052;GIAC Certified Enterprise Defender (GCED);https://www.giac.org/certification/certified-enterprise-defender-gced
+735;1052;GIAC Security Essentials Certification (GSEC);https://www.giac.org/certification/security-essentials-gsec
+736;1052;GIAC Security Leadership Certificate (GSLC) ;https://www.giac.org/certification/security-leadership-gslc
