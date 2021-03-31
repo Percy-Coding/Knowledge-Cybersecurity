@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class KnowledgeObjectiveService implements com.bitcollege.knowledgecybersecuritywebservice.service.KnowledgeObjectiveService {
@@ -15,8 +16,9 @@ public class KnowledgeObjectiveService implements com.bitcollege.knowledgecybers
     @Autowired
     private KnowledgeObjectiveRepository knowledgeObjectiveRepository;
 
+
     @Override
-    public List<KnowledgeObjective> findAll() {
-        return knowledgeObjectiveRepository.findAll();
+    public List<Map<String, Object>> findByKnowledgeUnitIdAndSectorId(Long knowledgeUnitId, Long sectorId) {
+        return knowledgeObjectiveRepository.findByKnowledgeUnitIdAndSectorId(knowledgeUnitId,sectorId);
     }
 }
