@@ -19,6 +19,9 @@
            <h2>/{{KA}}/{{ KU }}</h2>
       </div>
     </div>
+    
+    <!--AQUÍ IRÍA LA DESCRIPCIÓN DEL KNOWLEDGE UNIT-->
+
     <v-container v-model="unidades">
       <v-row no-gutters>
          <!--..................Left Side.......................-->
