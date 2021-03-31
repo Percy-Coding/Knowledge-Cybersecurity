@@ -19,33 +19,46 @@
               /{{kUName}}/{{this.$route.params.researchName}}
             </h2>
           </div>
-          <div class="d-flex justify-end">
+          <div class="d-flex justify-end switch-big">
             <v-switch
+              class="big-label"
               v-model="filterMode"
               :label="filterMode? 'By Knowledge Objectives': 'By keywords'"></v-switch>
           </div>
         </div>
-        <v-text-field
-          v-if="!filterMode"
-          v-model="newKeyword"
-          label="Keyword"
-          append-icon="mdi-plus-circle-outline"
-          single-line
-          hide-details
-          @click:append="addFilterItems(newKeyword)"
-          >
-        </v-text-field>
+        <div v-if="!filterMode">
+          <v-text-field
+            v-model="newKeyword"
+            label="Keyword"
+            append-icon="mdi-plus-circle-outline"
+            single-line
+            hide-details
+            @click:append="addFilterItems(newKeyword)"
+            class="search-text-field"
+            >
+          </v-text-field>
+          <div class="d-flex justify-start mt-5">
+            <v-card
+            height="100%"
+            v-for="kw in bestKeywords" :key="kw.name"
+            dark
+            @click="addFilterItems(kw.name)"
+            class="mx-1 pa-1 red lighten-2">
+              <span>{{kw.name}}</span>
+            </v-card>
+          </div>
+        </div>
         <br>
         <div v-if="filterMode">
-          <h3>Knowledge Objectives</h3>
-          <br>
-        </div>
+            <h3>Knowledge Objectives</h3>
+            <br>
+          </div>
         <v-card elevation="5" min-height="90px">
-          <v-card-text v-if="filterItems.length === 0">Aún no hay keywords añadidos</v-card-text>
+          <v-card-text v-if="filterItems.length === 0 && !filterMode">Aún no hay keywords añadidos</v-card-text>
           <v-container fluid>
             <v-row v-if="!filterMode">
               <v-col v-for="item in filterItems" :key="item">
-                <v-card class='green accent-2'>
+                <v-card color="#42b883" dark>
                   <v-card-text  class="text-center" >
                     {{item}}
                     <v-btn icon>
@@ -56,15 +69,23 @@
               </v-col>
             </v-row>
             <v-row v-else>
-              <v-col v-for="item in koItems" :key="item">
-                <v-card 
-                :class="item.clicked? 'green accent-2':'grey accent-1'"
-                @click="checkKO(item)"
-                height="80px">
-                  <v-card-text class="text-center" >
-                    {{item.name}}
-                  </v-card-text>
-                </v-card>
+              <v-col v-for="item in koItems" :key="item.name">
+                <v-tooltip bottom color="primary">
+                  <template v-slot:activator="{on}">
+                    <v-card
+                    v-on="on"
+                    :class="item.clicked? 'green accent-2':'grey accent-1'"
+                    @click="checkKO(item)"
+                    min-width="100%"
+                    height="80px"
+                    >
+                      <v-card-text class="text-center" >
+                        <b>{{item.name}}</b>
+                      </v-card-text>
+                    </v-card>
+                  </template>
+                  <span >Cant. Papers: {{item.paper_amount == null? 0 : item.paper_amount}}</span>
+                </v-tooltip>
               </v-col>
             </v-row>
           </v-container>                              
@@ -87,8 +108,15 @@
                   <v-list-item-icon>
                     <v-icon>{{adItem.icon}}</v-icon>
                   </v-list-item-icon>
-                  <v-list-item-content>
+                  <v-list-item-content v-if="adItem.label != 'Año'">
                     <v-text-field :label="adItem.label" v-model="adItem.value"></v-text-field>
+                  </v-list-item-content>
+                  <v-list-item-content v-else>
+                    <div class="d-flex justify-space-around">
+                      <v-text-field label="Año Mínimo" v-model="adItem.value" ></v-text-field>
+                      <v-icon class="mx-4">mdi-arrow-expand-horizontal</v-icon>
+                      <v-text-field label="Año máximo" v-model="endYear" ></v-text-field>
+                    </div>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
@@ -104,7 +132,7 @@
         <br>
         <v-divider></v-divider>
         <br>
-        <v-card v-if="filterActive">
+        <v-card>
           <v-card-title>
             Resultados filtrados
           </v-card-title>
@@ -112,13 +140,33 @@
             :headers="headers"
             :items="papers"
             :search="search"
-            @click:row="goToLink"
+            :loading="loadingData"
+            loading-text="Cargando Papers..."
           >
+            <template
+              v-slot:body="{ items }"
+              >
+               <tbody>
+                 <tr
+                  v-for="item in items"
+                  :key="item.title"
+                 >
+                  <td><span @click="goToLink(item)" class="text-hover">{{ item.title }}</span></td>
+                  <td>{{ item.year }}</td>
+                  <td>{{ item.doi }}</td>
+                  <td>{{ item.authors }}</td>
+                  <td>{{ item.documentType }}</td>
+                  </tr>
+               </tbody>
+            </template>
           </v-data-table>
         </v-card>
-        <v-header v-else class="d-flex justify-center">
+        <br>
+        <v-header v-if="!filterActive" class="d-flex justify-center">
           Aún no se han filtrado papers
         </v-header>
+        
+        
     </v-container>
 </template>
 
@@ -135,6 +183,9 @@
         newKeyword: '',
         filterActive: false,
         filterItems: [],
+        loadingData: false,
+        bestKeywords:[],
+        endYear: '',
         koItems: [
         ],
         advancedItems: [
@@ -155,7 +206,7 @@
           { text: 'Año', value: 'year' },
           { text: 'DOI', value: 'doi' },
           { text: 'Autor', value: 'authors' },
-          { text: 'Source', value: 'source' },
+          { text: 'Doc. Type', value: 'documentType' },
         ],
         papers: [
           
@@ -183,7 +234,9 @@
           alert('Escoja al menos 1 Knowledge Objective')
         }
         else{
-          const year = this.advancedItems[1].value;
+          this.loadingData = true;
+          const year1 = this.advancedItems[1].value;
+          const year2 = this.endYear;
           const title = this.advancedItems[0].value;
           const doi = this.advancedItems[2].value;
           const autor = this.advancedItems[3].value;
@@ -193,16 +246,17 @@
           else{
             idKO = '';
           }
-          axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/papers?keywords=${kws}&startYear=${year}&endYear=${year}&title=${title}&doi=${doi}&author=${autor}&koId=${idKO}`)
+          axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/papers?keywords=${kws}&startYear=${year1}&endYear=${year2}&title=${title}&doi=${doi}&author=${autor}&koId=${idKO}`)
           .then( (response) => {
             this.papers = response.data; 
             this.filterActive = true;
+            this.loadingData = false;
         });
         }
         
       },
       getKOs(){
-        axios.get('http://26.38.36.67:4899/knowledge-objectives')
+        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/knowledge-objectives`)
         .then( (response) =>{
           let newkoItems = response.data;
           this.koItems = newkoItems.map(function(obj){
@@ -210,6 +264,12 @@
           o.clicked = false;
           return o;
           });          
+        });
+      },
+      getBestKW(){
+        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/keywords`)
+        .then( (response) =>{
+          this.bestKeywords = response.data;  
         });
       },
       checkKO(item){
@@ -230,12 +290,23 @@
     },
     mounted(){
       this.getKOs();
+      this.getBestKW();
     }
   }
 </script>
 
 <style scoped>
-    .v-text-field{
+    .search-text-field{
       width: 250px;
+    }
+    .text-hover{
+      text-decoration: underline;
+    }
+    .text-hover:hover{
+      color:cornflowerblue;
+      cursor: pointer;
+    }
+    .big-label >>> label{
+      font-size: 20px;
     }
 </style>

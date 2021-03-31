@@ -10,6 +10,7 @@
               <v-card
                 class="mx-auto"
                 max-width="60vw"
+                color="green lighten-4"
                 >
                   <v-toolbar
                   color="indigo"
@@ -32,10 +33,9 @@
                     <v-list-item v-for="ku in kunitsByKA(item.id)" :key="ku.id">
                       <v-list-item-content>
                         <v-card 
-                        color=""
                         class="mx-auto"
                         @click="onClickKunit(item,ku)"
-                        dark>
+                        >
                         <v-card-text>
                           {{ku.name}}
                         </v-card-text>

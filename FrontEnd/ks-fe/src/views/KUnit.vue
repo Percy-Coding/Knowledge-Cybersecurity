@@ -69,7 +69,7 @@
                         <v-card 
                         class="pa-3">
                          <p>
-                          {{unit.name}}
+                          {{unit.name}} [{{unit.date}}]
                          </p>
                         </v-card>                      
                       </v-list-item-content>
