@@ -22,7 +22,6 @@
 </template>
 
 
-
 <style scoped>
 .links > * {
   margin: 20px;

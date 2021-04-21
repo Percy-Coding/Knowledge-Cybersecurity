@@ -3,24 +3,22 @@
     <br>
     <div>
       <div class="d-inline-flex">
-        <v-tooltip bottom>
-          <template v-slot:activator="{on}">
-              <v-btn icon
-              @click="$router.go(-1)"
-              v-on="on"
-              color="blue accent-3">
-                <v-icon>mdi-subdirectory-arrow-left</v-icon>
-              </v-btn>
-          </template>
-          <span>Atrás</span>
-        </v-tooltip>
+        <v-btn icon
+        @click="$router.go(-1)"
+        color="blue accent-3">
+          <v-icon>mdi-subdirectory-arrow-left</v-icon>
+        </v-btn>
       </div>
       <div class="d-inline-flex">
-           <h2>/{{KA}}/{{ KU }}</h2>
+           <h2>Atrás</h2>
       </div>
     </div>
     
     <!--AQUÍ IRÍA LA DESCRIPCIÓN DEL KNOWLEDGE UNIT-->
+    <div  class="text-center mx-auto">
+      <v-header>{{KU}}</v-header>
+      <v-subheader>{{KU_description}}</v-subheader>
+    </div>
 
     <v-container v-model="unidades">
       <v-row no-gutters>
@@ -180,6 +178,7 @@
 
 <script>
 import axios from 'axios';
+import {BASE_URL} from '../variables/variables.js'
 export default {
   props: {},
   data() {
@@ -187,6 +186,7 @@ export default {
       KA: this.$route.params.idKA,
       KU: this.$route.params.KUName,
       idKU: this.$route.params.idKU,
+      KU_description: localStorage.getItem('KU_Description'),
       unidades: [
         {title:'Certifications',arrow: false,items:[]},
         {title:'Congreses',arrow: false,items:[]},
@@ -198,23 +198,23 @@ export default {
   },
   methods:{
       certificatesByKU(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/certificates`)
+        axios.get(BASE_URL + `/${this.idKU}/certificates`)
         .then( (response) => {this.unidades[0].items = response.data});
       },
       congresesByKU(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/congresses`)
+        axios.get(BASE_URL+ `/${this.idKU}/congresses`)
         .then( (response) => {this.unidades[1].items = response.data});
       },
       toolsByKU(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/tools`)
+        axios.get(BASE_URL+`/${this.idKU}/tools`)
         .then( (response) => {this.unidades[2].items = response.data});
       },
       sectorsByKU(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors`)
+        axios.get(BASE_URL+`/knowledge-units/${this.idKU}/sectors`)
         .then( (response) => {this.unidades[3].items = response.data});
       },
       workRolesByKU(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/work-roles`)
+        axios.get(BASE_URL+`/knowledge-units/${this.idKU}/work-roles`)
         .then( (response) => {this.unidades[4].items = response.data});
       }
   },

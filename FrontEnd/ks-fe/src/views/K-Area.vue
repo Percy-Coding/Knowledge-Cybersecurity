@@ -1,7 +1,7 @@
 <template>
   <div align="center">
     <br>
-    <h1>Áreas de Conocimientos y New Trends</h1>
+    <h1>Knowledge Areas and New Trends</h1>
     <br />
     <div>
       <v-list>
@@ -12,19 +12,29 @@
                 max-width="60vw"
                 color="green lighten-4"
                 >
-                  <v-toolbar
-                  color="indigo"
-                  dark>
-                    <v-toolbar-title>
-                      <v-icon>mdi-shield-lock</v-icon>
-                      {{item.name}}
-                    </v-toolbar-title>
-                    <v-spacer></v-spacer>
-                    <v-btn icon v-on:click="onClickArrow(item)">
-                      <v-icon v-if="item.arrowed">mdi-arrow-up</v-icon>
-                      <v-icon v-else>mdi-arrow-down</v-icon>
-                    </v-btn>
-                  </v-toolbar>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{on}">
+                      <v-toolbar
+                      color="indigo"
+                      v-on ="on"
+                      dark>
+                        <v-toolbar-title>
+                          <v-icon>mdi-shield-lock</v-icon>
+                          {{item.name}}
+                        </v-toolbar-title>
+                        <v-spacer></v-spacer>
+                        <v-btn icon v-on:click="onClickArrow(item)">
+                          <v-icon v-if="item.arrowed">mdi-arrow-up</v-icon>
+                          <v-icon v-else>mdi-arrow-down</v-icon>
+                        </v-btn>
+                      </v-toolbar>
+                    </template>
+                    <span v-if="!item.arrowed">
+                      <ul>
+                        <li v-for="ku in kunitsByKA(item.id)" :key="ku.id">{{ku.name}}</li>
+                      </ul>            
+                    </span>
+                  </v-tooltip>
                   <v-card-text v-if="item.arrowed">
                     <p>{{item.definition}}</p>
                     <hr>
@@ -53,6 +63,7 @@
 
 <script>
 import axios from 'axios';
+import {BASE_URL} from '../variables/variables.js'
 export default {
   name: "KArea",
   data() {
@@ -66,7 +77,7 @@ export default {
   },
   methods:{
       getKAreas(){
-          axios.get('http://26.38.36.67:4899/knowledge-areas')
+          axios.get(BASE_URL+'/knowledge-areas')
           .then( (response) => {
             let initialAreas = response.data;
             this.areas = initialAreas.map(function(obj){
@@ -77,7 +88,7 @@ export default {
           });              
       },
       getKUnits(){
-        axios.get('http://26.38.36.67:4899/knowledge-units')
+        axios.get(BASE_URL+'/knowledge-units')
         .then((response) =>{
           this.kunits = response.data;
         });
@@ -86,6 +97,7 @@ export default {
         item.arrowed = !item.arrowed;
       },
       onClickKunit(item,ku){
+        localStorage.setItem('KU_Description',ku.description)
          this.$router.push({
            name: "KUnit",params:{idKA: item.name, KUName: ku.name, idKU: ku.id}
            });

@@ -38,6 +38,7 @@
             >
           </v-text-field>
           <div class="d-flex justify-start mt-5">
+            <span class="mvp-kw-text">Most used keywords: </span>
             <v-card
             height="100%"
             v-for="kw in bestKeywords" :key="kw.name"
@@ -54,7 +55,7 @@
             <br>
           </div>
         <v-card elevation="5" min-height="90px">
-          <v-card-text v-if="filterItems.length === 0 && !filterMode">Aún no hay keywords añadidos</v-card-text>
+          <v-card-text v-if="filterItems.length === 0 && !filterMode">No keywords added yet</v-card-text>
           <v-container fluid>
             <v-row v-if="!filterMode">
               <v-col v-for="item in filterItems" :key="item">
@@ -92,7 +93,7 @@
         </v-card>
         <div class="d-flex justify-end my-3">
           <v-btn depressed color="white" @click="expand = !expand">
-            <span>Filtrado avanzado</span>
+            <span>Advanced Filter</span>
             <v-icon>mdi-cog-outline</v-icon>
           </v-btn>
         </div>
@@ -108,14 +109,14 @@
                   <v-list-item-icon>
                     <v-icon>{{adItem.icon}}</v-icon>
                   </v-list-item-icon>
-                  <v-list-item-content v-if="adItem.label != 'Año'">
+                  <v-list-item-content v-if="adItem.label != 'Year'">
                     <v-text-field :label="adItem.label" v-model="adItem.value"></v-text-field>
                   </v-list-item-content>
                   <v-list-item-content v-else>
                     <div class="d-flex justify-space-around">
-                      <v-text-field label="Año Mínimo" v-model="adItem.value" ></v-text-field>
+                      <v-text-field label="Min Year" v-model="adItem.value" ></v-text-field>
                       <v-icon class="mx-4">mdi-arrow-expand-horizontal</v-icon>
-                      <v-text-field label="Año máximo" v-model="endYear" ></v-text-field>
+                      <v-text-field label="Max Year" v-model="endYear" ></v-text-field>
                     </div>
                   </v-list-item-content>
                 </v-list-item>
@@ -126,7 +127,7 @@
         <br>
         <div class="mx-auto text-center">
           <v-btn color="black accent-2" dark @click="onClickFilter">
-            Filtrar
+            Search
           </v-btn>
         </div>
         <br>
@@ -134,7 +135,7 @@
         <br>
         <v-card>
           <v-card-title>
-            Resultados filtrados
+            Search Results
           </v-card-title>
           <v-data-table
             :headers="headers"
@@ -163,7 +164,7 @@
         </v-card>
         <br>
         <v-header v-if="!filterActive" class="d-flex justify-center">
-          Aún no se han filtrado papers
+          No papers have been filtered yet
         </v-header>
         
         
@@ -172,6 +173,7 @@
 
 <script>
   import axios from 'axios'
+  import {BASE_URL} from '../variables/variables.js'
   export default {
     data () {
       return {
@@ -189,10 +191,10 @@
         koItems: [
         ],
         advancedItems: [
-          {label: 'Título', icon: 'mdi-subtitles-outline', value: ''},
-          {label: 'Año', icon: 'mdi-calendar-range',value: ''},
+          {label: 'Title', icon: 'mdi-subtitles-outline', value: ''},
+          {label: 'Year', icon: 'mdi-calendar-range',value: ''},
           {label: 'DOI', icon: 'mdi-counter',value: ''},
-          {label: 'Autor', icon: 'mdi-account',value: ''},
+          {label: 'Author', icon: 'mdi-account',value: ''},
         ],
         search: '',
         checkedKO: {id : -1, name:''},
@@ -246,7 +248,7 @@
           else{
             idKO = '';
           }
-          axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/papers?keywords=${kws}&startYear=${year1}&endYear=${year2}&title=${title}&doi=${doi}&author=${autor}&koId=${idKO}`)
+          axios.get(BASE_URL+`/knowledge-units/${this.idKU}/sectors/${this.sectorID}/papers?keywords=${kws}&startYear=${year1}&endYear=${year2}&title=${title}&doi=${doi}&author=${autor}&koId=${idKO}`)
           .then( (response) => {
             this.papers = response.data; 
             this.filterActive = true;
@@ -256,7 +258,7 @@
         
       },
       getKOs(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/knowledge-objectives`)
+        axios.get(BASE_URL+`/knowledge-units/${this.idKU}/sectors/${this.sectorID}/knowledge-objectives`)
         .then( (response) =>{
           let newkoItems = response.data;
           this.koItems = newkoItems.map(function(obj){
@@ -267,7 +269,7 @@
         });
       },
       getBestKW(){
-        axios.get(`http://26.38.36.67:4899/knowledge-units/${this.idKU}/sectors/${this.sectorID}/keywords`)
+        axios.get(BASE_URL+`/knowledge-units/${this.idKU}/sectors/${this.sectorID}/keywords`)
         .then( (response) =>{
           this.bestKeywords = response.data;  
         });
@@ -308,5 +310,9 @@
     }
     .big-label >>> label{
       font-size: 20px;
+    }
+    .mvp-kw-text{
+      margin: 5px 15px 0px 0px;
+      font-style: oblique;
     }
 </style>

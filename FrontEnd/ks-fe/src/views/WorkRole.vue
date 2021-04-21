@@ -12,7 +12,7 @@
                 <v-icon>mdi-subdirectory-arrow-left</v-icon>
               </v-btn>
           </template>
-          <span>Atrás</span>
+          <span>Back</span>
         </v-tooltip>
       </div>
       <div class="d-inline-flex">
@@ -58,7 +58,8 @@
 
 
 <script>
-import axios from 'axios';
+import axios from 'axios'
+import {BASE_URL} from '../variables/variables.js'
 export default {
   props: {},
   data() {
@@ -85,7 +86,7 @@ export default {
       }
     },
     getAllKsats(){
-      axios.get(`http://26.38.36.67:4899/work-roles/${this.wrId}/ksat`)
+      axios.get(BASE_URL+`/work-roles/${this.wrId}/ksat`)
       .then( (response) => {
         this.ksats = response.data;
         this.unidades[0].items = this.ksats.filter(ksat => ksat.type == "Task");
