@@ -10,17 +10,17 @@
         </v-btn>
       </div>
       <div class="d-inline-flex">
-           <h2>Atrás</h2>
+           <h2>Back</h2>
       </div>
     </div>
     
     <!--AQUÍ IRÍA LA DESCRIPCIÓN DEL KNOWLEDGE UNIT-->
     <div  class="text-center mx-auto">
-      <v-header>{{KU}}</v-header>
-      <v-subheader>{{KU_description}}</v-subheader>
+      <h1>{{KU}}</h1>
+      <v-header>{{KU_description}}</v-header>
     </div>
 
-    <v-container v-model="unidades">
+    <v-container v-model="unidades" class="mt-8">
       <v-row no-gutters>
          <!--..................Left Side.......................-->
         <v-col cols="12" sm="6" md="6">
@@ -198,15 +198,15 @@ export default {
   },
   methods:{
       certificatesByKU(){
-        axios.get(BASE_URL + `/${this.idKU}/certificates`)
+        axios.get(BASE_URL + `/knowledge-units/${this.idKU}/certificates`)
         .then( (response) => {this.unidades[0].items = response.data});
       },
       congresesByKU(){
-        axios.get(BASE_URL+ `/${this.idKU}/congresses`)
+        axios.get(BASE_URL+ `/knowledge-units/${this.idKU}/congresses`)
         .then( (response) => {this.unidades[1].items = response.data});
       },
       toolsByKU(){
-        axios.get(BASE_URL+`/${this.idKU}/tools`)
+        axios.get(BASE_URL+`/knowledge-units/${this.idKU}/tools`)
         .then( (response) => {this.unidades[2].items = response.data});
       },
       sectorsByKU(){
@@ -228,3 +228,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+
+v-header{
+  color:rgb(167, 161, 161);
+}
+</style>

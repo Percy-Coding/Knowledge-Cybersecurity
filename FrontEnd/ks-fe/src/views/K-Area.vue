@@ -97,7 +97,7 @@ export default {
         item.arrowed = !item.arrowed;
       },
       onClickKunit(item,ku){
-        localStorage.setItem('KU_Description',ku.description)
+        localStorage.setItem('KU_Description',ku.definition)
          this.$router.push({
            name: "KUnit",params:{idKA: item.name, KUName: ku.name, idKU: ku.id}
            });

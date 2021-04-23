@@ -2,21 +2,16 @@
     <v-container>
         <div>
           <div class="d-inline-flex">
-          <v-tooltip bottom>
-            <template v-slot:activator="{on}">
-              <v-btn icon
+            <v-btn icon
               @click="$router.go(-1)"
               v-on="on"
               color="blue accent-3">
                 <v-icon>mdi-subdirectory-arrow-left</v-icon>
-              </v-btn>
-            </template>
-            <span>Atrás</span>
-          </v-tooltip>
+            </v-btn>
           </div>
           <div class="d-inline-flex">
             <h2>
-              /{{kUName}}/{{this.$route.params.researchName}}
+              Back
             </h2>
           </div>
           <div class="d-flex justify-end switch-big">
@@ -27,6 +22,7 @@
           </div>
         </div>
         <div v-if="!filterMode">
+          <h1 class="text-center mx-auto mb-6">Search by Keywords</h1>
           <v-text-field
             v-model="newKeyword"
             label="Keyword"
@@ -51,7 +47,7 @@
         </div>
         <br>
         <div v-if="filterMode">
-            <h3>Knowledge Objectives</h3>
+            <h1 class="text-center mx-auto mb-6">Search by Knowledge Objectives</h1>
             <br>
           </div>
         <v-card elevation="5" min-height="90px">
