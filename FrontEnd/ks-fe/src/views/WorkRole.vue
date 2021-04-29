@@ -3,22 +3,23 @@
     <br>
     <div>
       <div class="d-inline-flex">
-        <v-tooltip bottom>
-          <template v-slot:activator="{on}">
-              <v-btn icon
-              @click="$router.go(-1)"
-              v-on="on"
-              color="blue accent-3">
-                <v-icon>mdi-subdirectory-arrow-left</v-icon>
-              </v-btn>
-          </template>
-          <span>Atrás</span>
-        </v-tooltip>
+        <v-btn icon
+        @click="$router.go(-1)"
+        color="blue accent-3">
+          <v-icon>mdi-subdirectory-arrow-left</v-icon>
+        </v-btn>
       </div>
       <div class="d-inline-flex">
-           <h2>/{{wrName}}</h2>
+           <h2>Back</h2>
       </div>
     </div>
+
+    <div  class="text-center mx-auto mb-8">
+      <h1>{{wrName}}</h1>
+      <v-header>{{wrDescription}}</v-header>
+    </div>
+
+
     <v-container>
       <v-row no-gutters>
         <v-col cols="12" sm="6" md="6" v-for="m in 2" :key="m">
@@ -26,10 +27,10 @@
             <v-list-item v-for="unidad in unidadesLorR(m)" :key="unidad.title">
                 <v-list-item-content>
                 <v-card color="green lighten-4">
-                   <v-toolbar color="indigo" dark>
+                   <v-toolbar color="indigo" dark  @click="unidad.arrow = !unidad.arrow">
                         <v-toolbar-title>{{unidad.title}}</v-toolbar-title>
                         <v-spacer/>
-                        <v-btn icon @click="unidad.arrow = !unidad.arrow">
+                        <v-btn icon>
                           <v-icon v-if="unidad.arrow">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
@@ -58,13 +59,15 @@
 
 
 <script>
-import axios from 'axios';
+import axios from 'axios'
+import {BASE_URL} from '../variables/variables.js'
 export default {
   props: {},
   data() {
     return {
       wrId: this.$route.params.wrId,
       wrName: this.$route.params.wrName,
+      wrDescription: localStorage.getItem('wr_description'),
       ksats: [
       ],
       unidades: [
@@ -85,7 +88,7 @@ export default {
       }
     },
     getAllKsats(){
-      axios.get(`http://26.38.36.67:4899/work-roles/${this.wrId}/ksat`)
+      axios.get(BASE_URL+`/work-roles/${this.wrId}/ksat`)
       .then( (response) => {
         this.ksats = response.data;
         this.unidades[0].items = this.ksats.filter(ksat => ksat.type == "Task");
@@ -94,10 +97,19 @@ export default {
         this.unidades[3].items = this.ksats.filter(ksat => ksat.type == "Abilities");
         });
     },
-
   },
   mounted(){
       this.getAllKsats();
   }
 };
 </script>
+
+<style scoped>
+v-header{
+  color:rgb(167, 161, 161);
+}
+
+.v-toolbar:hover{
+  cursor:pointer;
+}
+</style>
