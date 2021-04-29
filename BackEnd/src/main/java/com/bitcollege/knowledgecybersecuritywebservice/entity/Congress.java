@@ -23,7 +23,7 @@ public class Congress {
     private String name;
     private String acronym;
     private String date;
-    private Date deadline;
+    private String deadline;
     private String location;
 
     @JsonIgnore
