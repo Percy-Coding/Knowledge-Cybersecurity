@@ -1,7 +1,7 @@
 <template>
   <div align="center">
     <br>
-    <h1>Knowledge Areas and New Trends</h1>
+    <h1>Knowledge Areas</h1>
     <br />
     <div>
       <v-list>
@@ -17,13 +17,14 @@
                       <v-toolbar
                       color="indigo"
                       v-on ="on"
+                      v-on:click="onClickArrow(item)"
                       dark>
                         <v-toolbar-title>
                           <v-icon>mdi-shield-lock</v-icon>
                           {{item.name}}
                         </v-toolbar-title>
                         <v-spacer></v-spacer>
-                        <v-btn icon v-on:click="onClickArrow(item)">
+                        <v-btn icon>
                           <v-icon v-if="item.arrowed">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
@@ -39,7 +40,7 @@
                     <p>{{item.definition}}</p>
                     <hr>
                     <br>
-                    <v-header class="title-bold">Unidades de Conocimiento</v-header>
+                    <v-header class="title-bold">Knowledge Units</v-header>
                     <v-list-item v-for="ku in kunitsByKA(item.id)" :key="ku.id">
                       <v-list-item-content>
                         <v-card 
@@ -103,7 +104,11 @@ export default {
            });
       },
       kunitsByKA(id){
-         return this.kunits.filter(kunit => kunit.knowledgeArea == id);
+         let kunits_get = this.kunits.filter(kunit => kunit.knowledgeArea == id);
+         if(id == 9){
+           kunits_get = kunits_get.slice(0,5);
+         }
+         return kunits_get;
       }
   },
   mounted(){
@@ -118,5 +123,9 @@ export default {
 .title-bold{
     font-weight: 300;
     font-size: 22px;
+}
+
+.v-toolbar:hover{
+  cursor: pointer;
 }
 </style>

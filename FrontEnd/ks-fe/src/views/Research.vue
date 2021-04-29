@@ -51,7 +51,9 @@
             <br>
           </div>
         <v-card elevation="5" min-height="90px">
-          <v-card-text v-if="filterItems.length === 0 && !filterMode">No keywords added yet</v-card-text>
+          <v-card-text v-if="filterItems.length === 0 && !filterMode" style="font-size: 16px; font-style: italic">
+            No keywords added yet. If no keywords to filter by it will show all papers that are present in the current sector
+          </v-card-text>
           <v-container fluid>
             <v-row v-if="!filterMode">
               <v-col v-for="item in filterItems" :key="item">
@@ -138,7 +140,7 @@
             :items="papers"
             :search="search"
             :loading="loadingData"
-            loading-text="Cargando Papers..."
+            loading-text="Loading Papers..."
           >
             <template
               v-slot:body="{ items }"
@@ -175,7 +177,6 @@
       return {
         idKU: this.$route.params.idKU,
         sectorID: this.$route.params.sectorId,
-        kUName: localStorage.getItem('KUName'),
         expand: false,
         filterMode: false,
         newKeyword: '',
@@ -201,13 +202,18 @@
             filterable: true,
             value: 'title',
           },
-          { text: 'Año', value: 'year' },
+          { text: 'Year', value: 'year' },
           { text: 'DOI', value: 'doi' },
-          { text: 'Autor', value: 'authors' },
+          { text: 'Authors', value: 'authors' },
           { text: 'Doc. Type', value: 'documentType' },
         ],
         papers: [
-          
+          {title: '',
+          year: '',
+          doi: '',
+          authors: '',
+          documentType: ''},
+
         ],
       }
     },
@@ -219,7 +225,7 @@
           this.newKeyword = '';  
         }
         else{
-          alert('Por favor ingrese algún keyword');
+          alert('Please enter at least a keyword');
         }
              
       },
@@ -229,7 +235,7 @@
       },
       onClickFilter(){
         if(this.filterMode && this.checkedKO.id == -1){
-          alert('Escoja al menos 1 Knowledge Objective')
+          alert('Chooseat least 1 knowledge objective')
         }
         else{
           this.loadingData = true;

@@ -28,15 +28,16 @@
             <v-list-item>
             <v-list-item-content>
                 <v-card color="green lighten-4">
-                    <v-toolbar color="indigo" dark>
+                    <v-toolbar color="indigo" dark @click="unidades[0].arrow = !unidades[0].arrow">
                         <v-toolbar-title>{{unidades[0].title}}</v-toolbar-title>
                         <v-spacer/>
-                        <v-btn icon @click="unidades[0].arrow = !unidades[0].arrow">
+                        <v-btn icon>
                           <v-icon v-if="unidades[0].arrow">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
                     </v-toolbar>
                     <v-card-text v-if="unidades[0].arrow">
+                    <h3 v-if="unidades[0].items.length === 0">There are no Certifications yet in the present Knowledge Unit</h3>
                     <v-list-item v-for="unit in unidades[0].items" :key="unit.id">
                       <v-list-item-content>
                         <v-card 
@@ -56,15 +57,16 @@
             <v-list-item>
             <v-list-item-content>
                 <v-card color="green lighten-4">
-                   <v-toolbar color="indigo" dark>
+                   <v-toolbar color="indigo" dark @click="unidades[1].arrow = !unidades[1].arrow">
                         <v-toolbar-title>{{unidades[1].title}}</v-toolbar-title>
                         <v-spacer/>
-                        <v-btn icon @click="unidades[1].arrow = !unidades[1].arrow">
+                        <v-btn icon>
                           <v-icon v-if="unidades[1].arrow">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
                     </v-toolbar>
                     <v-card-text v-if="unidades[1].arrow">
+                    <h3 v-if="unidades[1].items.length === 0">There are no Congresses yet in the present Knowledge Unit</h3>
                     <v-list-item v-for="unit in unidades[1].items" :key="unit.id">
                       <v-list-item-content>
                         <v-card 
@@ -82,22 +84,23 @@
             <v-list-item>
             <v-list-item-content>
                 <v-card color="green lighten-4">
-                    <v-toolbar color="indigo" dark>
+                    <v-toolbar color="indigo" dark @click="unidades[2].arrow = !unidades[2].arrow">
                         <v-toolbar-title>{{unidades[2].title}}</v-toolbar-title>
                         <v-spacer/>
-                        <v-btn icon @click="unidades[2].arrow = !unidades[2].arrow">
+                        <v-btn icon >
                           <v-icon v-if="unidades[2].arrow">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
                     </v-toolbar>
                     <v-card-text v-if="unidades[2].arrow">
+                    <h3 v-if="unidades[2].items.length === 0">There are no tools yet in the present Knowledge Unit</h3>
                     <v-list-item v-for="unit in unidades[2].items" :key="unit.id">
                       <v-list-item-content>
                         <v-card 
                         class="pa-3">
                          <a 
                          style="text-decoration: none;"
-                         :href="unit.link" target="_blank">
+                         :href="unit.paper" target="_blank">
                           {{unit.name}}
                          </a>
                         </v-card>                      
@@ -115,10 +118,10 @@
             <v-list-item>
                 <v-list-item-content>
                 <v-card color="green lighten-4">
-                   <v-toolbar color="indigo" dark>
+                   <v-toolbar color="indigo" dark @click="unidades[3].arrow = !unidades[3].arrow">
                         <v-toolbar-title>{{unidades[3].title}}</v-toolbar-title>
                         <v-spacer/>
-                        <v-btn icon @click="unidades[3].arrow = !unidades[3].arrow">
+                        <v-btn icon>
                           <v-icon v-if="unidades[3].arrow">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
@@ -129,10 +132,21 @@
                         <v-card 
                         class="pa-3">
                          <router-link 
+                         v-if="!existPapers(unidades[3].id,unit.id)"
                          style="text-decoration: none;"
                          :to="{name: 'Research', params: {idKA : KA, idKU: idKU, researchName: unit.name, sectorId: unit.id } }">
                           {{unit.name}}
                          </router-link>
+                         <v-tooltip bottom v-else>
+                           <template v-slot:activator="{on}">
+                             <p
+                             v-on="on"
+                             class="no-papers-sector">
+                               {{unit.name}}
+                             </p>
+                           </template>
+                           <span>This sector has no papers</span>
+                         </v-tooltip>
                         </v-card>                      
                       </v-list-item-content>
                     </v-list-item>                      
@@ -143,27 +157,28 @@
             <v-list-item>
                 <v-list-item-content>
                 <v-card color="green lighten-4">
-                   <v-toolbar color="indigo" dark>
+                   <v-toolbar color="indigo" dark @click="unidades[4].arrow = !unidades[4].arrow">
                         <v-toolbar-title>{{unidades[4].title}}</v-toolbar-title>
                         <v-spacer/>
-                        <v-btn icon @click="unidades[4].arrow = !unidades[4].arrow">
+                        <v-btn icon>
                           <v-icon v-if="unidades[4].arrow">mdi-arrow-up</v-icon>
                           <v-icon v-else>mdi-arrow-down</v-icon>
                         </v-btn>
                     </v-toolbar>
                     <v-card-text v-if="unidades[4].arrow">
-                    <v-list-item v-for="unit in unidades[4].items" :key="unit.id">
-                      <v-list-item-content>
-                        <v-card 
-                        class="pa-3">
-                         <router-link 
-                         style="text-decoration: none;"
-                         :to="{name: 'WorkRoles', params: {wrName: unit.name, wrId: unit.id}}">
-                          {{unit.name}}
-                         </router-link>
-                        </v-card>                      
-                      </v-list-item-content>
-                    </v-list-item>                      
+                      <h3 v-if="unidades[4].items.length === 0">There are no work roles yet in the present Knowledge Unit</h3>
+                      <v-list-item v-for="unit in unidades[4].items" :key="unit.id">
+                        <v-list-item-content>
+                          <v-card 
+                          class="pa-3">
+                          <p
+                            class="link-like-text"
+                            @click="onClickWr(unit)">
+                            {{unit.name}}
+                          </p>
+                          </v-card>                      
+                        </v-list-item-content>
+                      </v-list-item>                      
                     </v-card-text>
                 </v-card>
             </v-list-item-content>
@@ -189,7 +204,7 @@ export default {
       KU_description: localStorage.getItem('KU_Description'),
       unidades: [
         {title:'Certifications',arrow: false,items:[]},
-        {title:'Congreses',arrow: false,items:[]},
+        {title:'Congress',arrow: false,items:[]},
         {title:'Tools',arrow: false,items:[]},
         {title:'Research',arrow: false,items:[]},
         {title:'Work Roles',arrow: false,items:[]}
@@ -216,7 +231,19 @@ export default {
       workRolesByKU(){
         axios.get(BASE_URL+`/knowledge-units/${this.idKU}/work-roles`)
         .then( (response) => {this.unidades[4].items = response.data});
-      }
+      },
+      existPapers(id1,id2){
+        axios.get(BASE_URL+`/knowledge-units/${id1}/sectors/${id2}/keywords`)
+        .then( (response) =>{
+          let res = response.data;  
+          if (res === null) return false;
+          else return true; 
+        });
+      },
+      onClickWr(wr){
+        localStorage.setItem('wr_description',wr.description)
+         this.$router.push({name: 'WorkRoles', params: {wrName: wr.name, wrId: wr.id}});
+      },
   },
   mounted() {
     this.certificatesByKU();
@@ -224,7 +251,6 @@ export default {
     this.toolsByKU();
     this.sectorsByKU();
     this.workRolesByKU();
-    localStorage.setItem('KUName',this.KU);
   }
 };
 </script>
@@ -233,5 +259,22 @@ export default {
 
 v-header{
   color:rgb(167, 161, 161);
+}
+
+.link-like-text{
+  color: #00AAFF;
+}
+
+.link-like-text:hover {
+  color: #00AABF;
+  cursor: pointer;
+}
+
+.no-papers-sector{
+  color: #800040;
+}
+
+.v-toolbar:hover{
+  cursor: pointer;
 }
 </style>

@@ -32,8 +32,8 @@
                 <br>
                 <div>
                 <h3>
-                    Te presentamos la guía de taxonomía
-                    <router-link to="/taxonomyChart">Aquí</router-link>
+                    We introduce to you the taxonomy guide
+                    <router-link to="/taxonomyChart">Here</router-link>
                 </h3>
                 </div>
             </v-container>
@@ -47,7 +47,7 @@
                     class="mx-auto"
                     rounded="xl"
                     @click="onCLickGetIn"
-                    >{{ active ? 'Ingresando . . .' : 'Ingresar' }}</v-btn>
+                    >{{ active ? 'Entering KS . . .' : 'Enter' }}</v-btn>
         </div>
     </div>
 
